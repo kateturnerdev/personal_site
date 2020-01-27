@@ -5,43 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact - Kate Turner</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+
 </head>
-<body bgcolor="CCCCFF">
     <!-- Menu -->
-    <table cellspacing="10">
-        <tr bgcolor="666699">
-            <td><a href= "index.html" target="_blank"><font color="white"><emph>Home</emph></font></a></td>
-            <td><a href= "https://history.wisc.edu/people/turner-kate/" target="_blank"><font color="white">
-                 Historicial Research
-                </font></a></td>
-                <td><a href= "https://github.com/kateturnerdev" target="_blank"><font color="white">
-                    Web Development
-                   </font></a></td>
-               <td><a href= "resume.html" target="_blank"><font color="white">Resume</font></a></td>
-               <td><a href= "contact_info.html" target="_blank"><font color="white">Get in Touch
-                   </font></a></td>
-                   
-            </tr>
-    </table>
+    <table cellspacing="10" id=menu>
+        
+        <td><a class="menu-text" href= "index.html">Home</a></td>
+        <td><a class="menu-text"href= "https://history.wisc.edu/people/turner-kate/" target="_blank">
+             Historicial Research
+            </a></td>
+            <td><a class="menu-text" href= "https://github.com/kateturnerdev" target="_blank"> 
+                Web Development
+               </a class="menu-text"></td>
+           <td><a class="menu-text" href= "resume.html" >Resume</a></td>
+           <td><a class="menu-text" href= "contact_info.html"> Get in Touch
+               </a></td>
+               
+        </tr>
+</table>
     <!-- Title and description -->
     <h1> 
-        <font color= "666699">Get In Touch</font>
+       Get In Touch
     </h1>
 
     <h2>
-        <font color='660033'> <em>I'm always on the look out for new projects and collaborators.</em></font></h2>
-        <p>Skittles the dog and I would love to hear from you!</p>
-    <!-- Image -->
-        <img src= 'images/skittles.jpg' alt= 'image of Skittles, a Basset Hound mix'>
-    <!-- Contact Info -->
-    <p>
-        <strong>🏡1235 Jenifer St, Madison WI 53703</strong>
-        <br>
-        <br>
-        <a href= "mailto:kate.e.turner15@gmail.com">✉Email Me</a>
-        <br>
-        <br>
-        <a href="tel:+"14343280496>📱Call Me</a>
-    </p>    
+        I'm always on the look out for new projects and collaborators.
+    </h2>
+ <!-- Image -->
+ <img src= 'images/skittles.jpg' alt= 'image of Skittles, a Basset Hound mix'>
+ <p id="caption">Skittles the dog and I would love to hear from you!</p>
+  <!-- Contact Info -->
+  <p id="contact-methods">
+    🏡1235 Jenifer St, Madison WI 53703
+    <br><br>
+    <a href= "mailto:kate.e.turner15@gmail.com">✉Email Me</a>
+    <br>
+    <br>
+    <a href="tel:+"14343280496>📱Call Me</a>
+</p>    
+        
+   
+   
+    <form action="#"> 
+        <h2>Send me a Comment</h2> 
+    <div>
+        <label for="name">Name</label>
+    </dev>
+        <div>
+        <input type="text" name="name" class="name-box" placeholder="First">
+        <input type="text" name="name" class="name-box" placeholder="Last">
+    </div>
+    <div>
+        <label for="email">Email</label>
+    </div>
+    <div>
+    <input type="email" name="email" id="email">  
+    </div>
+        <label for="contact-box">Comment</label>
+    <div>
+        <input type="text" name= contact-box id="contact-box" placeholder="Write something...">
+    </div>
+    </div>
+    <div>
+    <input type="submit" name="submit" id="submit">
+</div>
+    </form>
 </body>
 </html>
