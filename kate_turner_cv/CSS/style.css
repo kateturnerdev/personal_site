@@ -1,0 +1,95 @@
+body {
+    background-color: #fff;
+    font-family: 'Questrial', sans-serif;
+}
+
+    
+h1{
+    background-color:	#29a385;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 55px;
+    background
+   
+}
+.menu-text {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #e56c6c;
+    padding: 5px;
+    
+}
+
+h2 {
+    color: #e56c6c;
+    font-weight: bold;
+}
+
+img {
+   display: block;
+    width: 35%;
+    margin: 0 auto;
+
+}
+#caption {
+    font-style: italic;
+    text-align: center;
+    font-family: ;
+}
+#contact-methods {
+
+
+}
+
+input[type=text] {
+        background-color: #29a385;
+    ;
+    color: #e56c6co; 
+    margin: 10px;
+
+}
+input[type=email] {
+    background-color: #29a385;
+    ;
+    color: #fff; 
+    margin: 10px;
+}
+
+::placeholder {
+    color: #fff;
+}
+   
+
+.name-box {
+    width: 30%;
+    padding: 5px;
+}
+
+#email {
+
+width: 64%;
+padding: 5px;
+}
+
+#contact-box {
+    width: 100%;
+    height: 150px; 
+    padding: 5px 20px;
+    box-sizing: border-box;
+    resize: none;  
+}
+
+#submit {
+    margin: 5px;
+    padding: 5px;
+    place-content: center;
+    background-color: #e56c6c;
+    color: #fff;
+    width: 70px;
+    border: solid;
+    ;
+
+}
